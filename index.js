@@ -8,9 +8,12 @@ document.getElementById('select-btn').addEventListener('click', function(e){
             let html = ""
             for (obj of data.colors){
                 const colore = obj.hex.value
-                html += `<div class="section" id= "${colore}" style="background-color:${colore}">
-                            <p>${colore}</p>
-                        </div>`
+                html += `  <div class="vertical-disp">
+                                <div class="section" id= "${colore}" style="background-color:${colore}">
+                                    </div>
+                                <p>${colore}</p>
+                            </div>`
+                
             
         } 
         document.getElementById("colors-container").innerHTML = html
