@@ -55,3 +55,54 @@ input, select, button{
 p{
     text-align: center;
 }
+
+.color {
+    display: flex;
+    flex-wrap: wrap; /* Add this line */
+  }
+  
+  .column-color {
+    background-color: black;
+    height: 100vh;
+    width: 20%;
+    max-height: 75vh;
+  }
+  
+  .color-hex {
+    display: flex;
+    height: 10vh;
+    background: #1F2937;
+    color: #FFF;
+  }
+  
+  .column-hex{
+    color: #D5D4D8;
+    font-weight: 500;
+    padding: 10px;;
+    margin: 5px;
+    width: 20%;
+    text-align: center;
+    font-size: 12px;
+    flex-wrap: wrap;
+  }
+  
+  #color-1{
+      background: #F55A5A;
+  }
+  
+  #color-2{
+      background: #2B283A;
+  }
+  
+  #color-3{
+      background: #FBF3AB;
+  }
+  
+  #color-4{
+      background: #AAD1B6;
+  }
+  
+  #color-5{
+      background: #A626D3;
+  }
+  
